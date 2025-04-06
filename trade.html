@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script defer src="Script.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <title>MockStocks</title>
+</head>
+<body>
+  <h1>MockStocks</h1>
+  <h3>Click on graph point to purchase stock!</h3>
+  <canvas id="chart"></canvas> <!--For chart-->
+
+  <div id="buyPopup" class="popup"> <!--Defines pop-up-->
+    <p id="buyText"></p>
+    <button onclick="confirmBuy()">Buy</button>
+    <button onclick="closePopup()">Cancel</button>
+  </div>
+
+  <table border="1" id="portfolioTable">
+    <thead style="background-color: gainsboro;">
+      <tr>
+        <th>#</th>
+        <th>Time</th>
+        <th>Price (₹)</th>
+        <th>Profit/Loss (₹)</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</body>
+</html>

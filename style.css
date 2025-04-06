@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#chart {
+  max-width: 600px;
+  height: 300px;
+  display: block;
+  margin: 30px auto;
+}
+
+.popup {
+  display: none;
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#portfolioTable {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+#portfolioTable th,
+#portfolioTable td {
+  padding: 8px;
+  text-align: center;
+}
