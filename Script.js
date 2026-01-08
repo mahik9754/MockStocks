@@ -100,7 +100,7 @@ window.onload = function () {
       }
 
       portfolio.push(selectedBuy);
-      alert(`✅ Bought at ${selectedBuy.time} for ₹${selectedBuy.price}`);
+      alert(`Bought at ${selectedBuy.time} for ₹${selectedBuy.price}`);
       selectedBuy = null;
       renderPortfolio();
     }
@@ -134,3 +134,4 @@ window.onload = function () {
     });
   }
 };
+
